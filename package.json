@@ -1,5 +1,11 @@
 {
 	"name": "codename-susie",
 	"version": "0.0.0",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"servor": "^4.0.2"
+	},
+	"scripts": {
+		"dev": "servor src --reload"
+	}
 }
